@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Blog Rendering App
+Blog Rendering App makes API calls to Contentstack for Fetching all blogs, Fetching a Single blog with specific ID, Fetching NavBar data and Footer data.
+
+## Introduction
+
+A simple frontend for Blog Rendering Application created with Typescript and Next.js. Built with an aim to learn and implement creation of a Next.js Frontend with Typescript and Implementing Contentstack as Backend. Blog Application supports functionalities of fetching all the blog data from Contentstack and displaying it on the UI in the form of tiles and fetching a single blog data with specific blog ID and displays the data on a different Route. 
 
 ## Getting Started
 
-First, run the development server:
+These are instructions to set up your project locally.
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To clone and run this application, you'll need [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Node.js](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04) (which comes with npm) installed on your computer.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+From your command line:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repo
+   ```sh
+   $ git clone https://github.com/Saima422/Blog-Contentstack-TS-Nextjs.git
+   ```
+2. Install the Dependencies
+   ```sh
+   $ npm install
+   ```
+3. To start the App, use the following command
+    ```sh
+    $ npm run start
+    ```
+4. The Next.js Application is now Up and Running
+5. Open [http://localhost:3000](http://localhost:3000)
+    with your browser to see the result.
 
-## Learn More
+<br>
 
-To learn more about Next.js, take a look at the following resources:
+## Application View
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* `/` Route
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ![](https://saima422.github.io/Image-JSON-Data-Repo/blog-react/home-route.png)
 
-## Deploy on Vercel
+* `/:blogId` Route
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ![](https://saima422.github.io/Image-JSON-Data-Repo/blog-react/id-route.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Scope and Functionality
+
+#### Features:
+* Fetches All blogs from Contentstack upon load of Application
+* Fetches a single Blog content from Contentstack when a "View Full Blog" button of the Blog is Clicked
+* Navigation between Different Related Blogs through Links provided on the Blog
+* Fetches the NavBar and Footer Data from Contentstack and displays the content according to it.
+* Manages a central state for NavBar data and Footer data using Context API
+
+## Referred Resources
+* [Next.js](https://nextjs.org/docs/getting-started)
+* [Typescript](https://basarat.gitbook.io/typescript/type-system/index-signatures)
+* [Next.js Routing](https://nextjs.org/docs/routing/introduction)
+* [Context API in Next.js](https://dev.to/shareef/context-api-with-typescript-and-next-js-2m25)
+
+
+## Contact
+
+* Author - Saima Sayed 
+* [Connect on LinkedIn](https://www.linkedin.com/in/saima-sayed-6482481b9/)
+* [Project Resources](https://github.com/Saima422/Blog-Contentstack-TS-Nextjs)
+* [Live Link]()
