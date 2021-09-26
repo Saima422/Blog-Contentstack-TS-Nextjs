@@ -1,6 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import { DataContextProvider } from './context/dataContext';
+import { DataContextProvider } from '../components/context/dataContext';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

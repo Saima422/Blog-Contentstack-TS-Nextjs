@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faInstagramSquare, faLinkedin, faTwitterSquare, faWhatsappSquare, faTelegram, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { footerInterface } from '../../pages/Interfaces/Interface';
+import { footerInterface } from '../Interfaces/Interface';
 config.autoAddCss=false;
 
 function Footer({data}: {data: footerInterface}){

@@ -4,9 +4,9 @@ import BlogTiles from "../components/BlogTitles/BlogTiles";
 import styles from './styles/Home.module.scss';
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import {props, BlogObjInterface} from "./Interfaces/Interface";
+import {props, BlogObjInterface} from "../components/Interfaces/Interface";
 import { getAllBlogs, getFooterData, getNavData } from './api/apiCalls';
-import { useDataContext } from './context/dataContext';
+import { useDataContext } from '../components/context/dataContext';
 
 const Home: NextPage<props> = (content) => {
     const {arr, navData, footerData} = content;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import styles from './Navbar.module.scss';
-import { navDataIterface } from '../../pages/Interfaces/Interface';
+import { navDataIterface } from '../Interfaces/Interface';
 
 function Navbar({data}: navDataIterface){
 

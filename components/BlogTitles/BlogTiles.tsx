@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import styles from './BlogTiles.module.scss';
-import {BlogTileInterface} from "../../pages/Interfaces/Interface";
+import {BlogTileInterface} from "../Interfaces/Interface";
 
 function BlogTiles({item}: BlogTileInterface){
     return <>

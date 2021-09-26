@@ -2,9 +2,9 @@ import Link from "next/link";
 import styles from './styles/Blogpage.module.scss';
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import { BlogInterface, linkObj, paramsInterface } from "./Interfaces/Interface";
+import { BlogInterface, linkObj, paramsInterface } from "../components/Interfaces/Interface";
 import { getBlogById } from "./api/apiCalls";
-import { useDataContext } from "./context/dataContext";
+import { useDataContext } from "../components/context/dataContext";
 
 const BlogPage: React.FC<BlogInterface> = ({blog}) => {
   const {navData, footerData} = useDataContext();
