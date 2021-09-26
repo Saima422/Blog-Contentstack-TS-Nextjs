@@ -1,0 +1,50 @@
+.container{
+    background-color: #BD4B4B;
+    width: 400px;
+    margin: 20px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h3{
+        text-align: center;
+    }
+
+    h5{
+        margin: 5px;
+        text-align: center;
+    }
+
+    .imageBlock{
+        height: 250px;
+        width: 300px;
+        border: 2px solid white;
+        padding: 10px;
+        margin: 10px auto;
+
+        @media (max-width: 380px) {
+            padding: 2px;
+            height: 200px;
+            width: 250px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .button{
+        width: 150px;
+        height: 30px;
+        margin: 10px;
+        border: 2px solid white;
+        color: white;
+        text-align: center;
+        padding: 5px 0;
+        background-color: #BD4B4B;
+    }
+}

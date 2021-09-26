@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+
+    .footerLogo{
+        bottom: 0;
+        height: 50px;
+        width: 150px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+    padding: 5px 0;
+    color: white;
+}
+
+
+.socialIcons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+
+    @media (max-width: 520px) {
+        width: 35vw;
+    }
+}
+
+.icon{
+    color: white;
+    border: 2px sold red;
+    display: block;
+    padding: 4px;
+}
+
+
