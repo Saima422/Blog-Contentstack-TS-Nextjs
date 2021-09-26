@@ -69,4 +69,4 @@ From your command line:
 * Author - Saima Sayed 
 * [Connect on LinkedIn](https://www.linkedin.com/in/saima-sayed-6482481b9/)
 * [Project Resources](https://github.com/Saima422/Blog-Contentstack-TS-Nextjs)
-* [Live Link]()
+* [Live Link](https://blog-contentstack-ts-nextjs-a5dxkb01y-saima422.vercel.app/)
